@@ -1,0 +1,74 @@
+﻿/.phpunit.cache
+/bootstrap/ssr
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+
+# Environment files
+.env*
+!.env.example
+
+# Bootstrap cache
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitignore
+
+# Storage framework
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/app/private/*
+!/storage/app/private/.gitignore
+/storage/app/public/*
+!/storage/app/public/.gitignore
+
+# Database and logs
+*.sqlite
+*.sql
+*.db
+*.log
+.rnd
+
+# Postman and API exports
+postman/
+*.postman_collection.json
+*.postman_environment.json
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Homestead.json
+Homestead.yaml
+.fleet/
+.nova/
+.zed/
+
+# Package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Public user uploads
+/public/uploads/avatar/*
+/public/uploads/home/*
+/public/uploads/listings/*
+/public/uploads/marketplace/*
+!/public/uploads/user/default.png
